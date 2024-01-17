@@ -6,7 +6,6 @@ const FollowBar = () => {
       </div>
       <div className="flex flex-col gap-6 mt-4">{/* fetch users*/}</div>
     </div>
-    
   );
 }; 
 export default FollowBar;

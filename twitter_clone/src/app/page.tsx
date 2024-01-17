@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Layout from "./layout";
-
+import HeadSection  from "./components/mainSection/Header";
 export default function Home() {
   return (
     <>
-        <div className="text-3xl text-sky-400">Heloo World!</div>
+        <HeadSection label="HOME"/>
     </>
   );
 }
